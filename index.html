@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icon Webcomponent</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/@ugent-ui/css-reset/dist/reset.css"
+    />
+    <script type="module" src="/src/icon.ts"></script>
+    <style>
+      section {
+        padding: var(--space-200, 16px);
+      }
+      .icon-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: var(--space-250, 20px);
+      }
+      .icon {
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--color-border-default, #4d5c7530);
+        padding: var(--space-100, 8px);
+        border-radius: var(--border-radius-small);
+      }
+
+      .icon ug-icon {
+        margin-right: var(--space-150, 12px);
+        line-height: 0;
+      }
+
+      .icon span {
+        font-size: var(--font-body-small, 11px);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>ug-icon</h1>
+        <p>
+          Een veelzijdige en aanpasbare icon webcomponent, met ondersteuning
+          voor size, color en accessibility.
+        </p>
+      </header>
+    </section>
+    <section class="demo">
+      <h2>Iconset</h2>
+      <div class="icon-grid">
+        <div class="icon">
+          <ug-icon name="brand"></ug-icon><span>brand</span>
+        </div>
+        <div class="icon"><ug-icon name="home"></ug-icon><span>home</span></div>
+        <div class="icon">
+          <ug-icon name="settings"></ug-icon><span>settings</span>
+        </div>
+        <div class="icon"><ug-icon name="user"></ug-icon><span>user</span></div>
+        <div class="icon">
+          <ug-icon name="search"></ug-icon><span>search</span>
+        </div>
+        <div class="icon">
+          <ug-icon name="notifications"></ug-icon><span>notifications</span>
+        </div>
+        <div class="icon"><ug-icon name="menu"></ug-icon><span>menu</span></div>
+        <div class="icon">
+          <ug-icon name="close"></ug-icon><span>close</span>
+        </div>
+        <div class="icon"><ug-icon name="back"></ug-icon><span>back</span></div>
+        <div class="icon">
+          <ug-icon name="forward"></ug-icon><span>forward</span>
+        </div>
+        <div class="icon">
+          <ug-icon name="upload"></ug-icon><span>upload</span>
+        </div>
+        <div class="icon">
+          <ug-icon name="download"></ug-icon><span>download</span>
+        </div>
+        <div class="icon"><ug-icon name="edit"></ug-icon><span>edit</span></div>
+        <div class="icon">
+          <ug-icon name="delete"></ug-icon><span>delete</span>
+        </div>
+        <div class="icon">
+          <ug-icon name="confirm"></ug-icon><span>confirm</span>
+        </div>
+        <div class="icon">
+          <ug-icon name="warning"></ug-icon><span>warning</span>
+        </div>
+        <div class="icon">
+          <ug-icon name="information"></ug-icon><span>information</span>
+        </div>
+        <div class="icon"><ug-icon name="help"></ug-icon><span>help</span></div>
+        <div class="icon"><ug-icon name="add"></ug-icon><span>add</span></div>
+        <div class="icon">
+          <ug-icon name="remove"></ug-icon><span>remove</span>
+        </div>
+        <div class="icon"><ug-icon name="lock"></ug-icon><span>lock</span></div>
+      </div>
+      <h2>Colors</h2>
+      <h3></h3>
+    </section>
+  </body>
+</html>

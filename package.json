@@ -1,0 +1,26 @@
+{
+  "name": "@ugent-ui/icon",
+  "private": true,
+  "version": "1.0.0-beta.1",
+  "description": "Icon webcomponent voor UGent webapplicaties",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@awesome.me/kit-9f8a8971c9": "^1.0.4",
+    "@fortawesome/sharp-regular-svg-icons": "^6.6.0",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@ugent-ui/css-reset": "latest",
+    "@ugent-ui/design-tokens": "latest",
+    "bootstrap": "^5.3.3",
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "sass": "^1.77.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
